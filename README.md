@@ -18,7 +18,7 @@ The Scikit-Learn implementation of the following ML models are trained on the da
 * SVM
 * Bernoulli Naive Bayes
 * Multinomial Naive Bayes
-* Random Forest
+* Random Forrest
 * Gradient Boosting
 * Multilayer Perceptron (Deep Learning)
 
