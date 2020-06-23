@@ -24,4 +24,4 @@ The Scikit-Learn implementation of the following ML models are trained on the da
 
 Except for training the Naive Bayes models, TF-IDF features are used for the input to the models. More detailed information can be found in the notebook provided in this repository. Scapy implementation of lemmatization and stemming from the NLTK library can be integrated with the TF-IDF vectroizer and this notebook shows how to do that. Lemmatization and stemming will mainly be useful if the generalization is the proplem instead of underfitting. 
 
-Finally, the probability estimations of the chosen model will tried to be improved using calibration. There can be two options for calibratinf the probabilities of an ML model. 
+Finally, the probability estimations of the chosen model will tried to be improved using calibration. There can be two options for calibrating the probabilities of an ML model. 
