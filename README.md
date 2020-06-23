@@ -22,6 +22,8 @@ The Scikit-Learn implementation of the following ML models are trained on the da
 * Gradient Boosting
 * Multilayer Perceptron (Deep Learning)
 
-Except for training the Naive Bayes models, TF-IDF features are used for the input to the models. More detailed information can be found in the notebook provided in this repository. Scapy implementation of lemmatization and stemming from the NLTK library can be integrated with the TF-IDF vectroizer and this notebook shows how to do that. Lemmatization and stemming will mainly be useful if the generalization is the proplem instead of underfitting. 
+NLTK's WordPunctTokenizer is used for tokenizing the bug descriptions. This tokenizer is used to tokenize the punctuation as well as the one character words. The TF-IDF vectorizer implementation of Scikit-Learn selects tokens of 2 or more alphanumeric characters and ignores punctuatation. When the number of punctuations used in the descriptions are studied for severe and non-severe bugs, it is observed that punctuation can be a useful feature to include. 
+
+Except for training the Naive Bayes models, TF-IDF features are used for the input to the models. More detailed information can be found in the notebook provided in this repository. Scapy implementation of lemmatization and stemming from the NLTK library can be integrated with the TF-IDF vectroizer and this notebook shows how to do that. Lemmatization and stemming will mainly be useful if the generalization is the problem instead of underfitting. 
 
 Finally, the probability estimations of the chosen model will tried to be improved using calibration. There can be two options for calibrating the probabilities of an ML model. 
